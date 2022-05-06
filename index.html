@@ -1,0 +1,49 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Koulen&family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <!--xs-0-768px--> 
+    <div class="col-xs-12 header_div text-center">
+      <h1>Sound Controlled Pokemon</h1>
+      <h3 class="text text-danger">Make a bell sound, clap sound, or slam sound to make the Pokemon Dance</h3>
+      
+    </div>
+      
+    <div class="main_div"> 
+      <center>
+        <button class="btn btn-info" onclick="startProgram()">Start Program</button>
+        <h3 id="result">I can hear:</h3>
+        <h3 id="confidence_of_result">Accuracy:</h3>
+        <br>
+        <img src="aliens-01.png" id="alien1" width="300" height="300">  
+        <img src="aliens-02.png" id="alien2" width="300" height="300">
+        <img src="aliens-03.png" id="alien3" width="300" height="300">
+        <img src="aliens-04.png" id="alien4" width="300" height="300">   
+      </center>
+    </div>
+    <div id="copy_right_footer">
+      <h2>Made by FazKING</h2>
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
